@@ -49,16 +49,4 @@
 </html>
 
 <!--    &lt;!&ndash; I am creating a table so that i can iterate over every job from the jobs list. &ndash;&gt;-->
-<!--    <table th:each="job: ${Jobs}" class="job-listings">-->
-<!--        <tr>-->
-<!--            <td>ID: </td>-->
-<!--            <td>th:text="${job.id()}"</td>-->
-<!--        </tr>-->
-<!--        <tr>-->
-<!--            <td>Name: </td>-->
-<!--            <td>th:text="${job.getName()}"</td>-->
-<!--        </tr>-->
-<!--        <tr>-->
-<!--            <td>Employer: </td>-->
-<!--            <td>Location</td>
-            <td><a th:href="@{/list/jobs(column=location,value=${job.getLocation()})}" th:text="${job.getLocation()}"></a><td>-->
+
